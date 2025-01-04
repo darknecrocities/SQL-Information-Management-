@@ -1,1 +1,44 @@
+1. **Task 1: List of Employees and Their Departments**
+   - Retrieve a list of employees with the name of their department.
+     ```sql
+     SELECT employees.first_name, employees.last_name, departments.department_name
+     FROM employees
+     INNER JOIN departments ON employees.department_id = departments.department_id;
+     ```
 
+2. **Task 2: Employees with Salary Greater Than 55,000**
+   - Find employees with a salary greater than 55,000.
+     ```sql
+     SELECT first_name, last_name, salary
+     FROM employees
+     WHERE salary > 55000;
+     ```
+
+3. **Task 3: Projects in the Engineering Department**
+   - Get all projects related to the "Engineering" department.
+     ```sql
+     SELECT projects.project_name, departments.department_name
+     FROM projects
+     INNER JOIN departments ON projects.department_id = departments.department_id
+     WHERE departments.department_name = 'Engineering';
+     ```
+
+4. **Task 4: Employees Working on a Project**
+   - List which employees are working on which projects.
+     ```sql
+     SELECT employees.first_name, employees.last_name, projects.project_name
+     FROM employees
+     INNER JOIN departments ON employees.department_id = departments.department_id
+     INNER JOIN projects ON departments.department_id = projects.department_id;
+     ```
+
+5. **Task 5: Average Salary by Department**
+   - Calculate the average salary for each department.
+     ```sql
+     SELECT departments.department_name, AVG(employees.salary) AS avg_salary
+     FROM employees
+     INNER JOIN departments ON employees.department_id = departments.department_id
+     GROUP BY departments.department_name;
+     ```
+
+---
