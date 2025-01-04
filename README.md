@@ -40,3 +40,4 @@ By following this tutorial, you’ll learn how to:
 
 Happy coding and good luck with your SQL journey! 🚀
 
+Created by: Arron Kian Parejas
