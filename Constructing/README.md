@@ -58,4 +58,7 @@ Steps to Construct Your Own Database:
             ('Marketing Campaign', 2, '2022-03-15', '2022-10-31'),
             ('Website Overhaul', 3, '2022-06-01', '2023-06-01');
      ```
+---
+**Sample CrowFoot chart**
+![image](https://github.com/user-attachments/assets/bc0829ff-679b-4e00-8679-efc47b7f1074)
 
