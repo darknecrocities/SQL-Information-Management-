@@ -12,6 +12,7 @@ Table of Contents 📑
 1. Pre-Built Database 🏗️
 2. Constructing Your Own Database 🛠️
 3. Query Tasks 🔍
+---
 
 1. **Pre-Built Database 🏗️**
 
