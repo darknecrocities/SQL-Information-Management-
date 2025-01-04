@@ -12,6 +12,3 @@ Steps to Use Pre-Built Database:
    - If you prefer to import the database file (e.g., `.sql` file), you can simply import the pre-built database into your SQL environment.
    - Use the `import` function available in your SQL client (e.g., in MySQL Workbench, use `File` > `Open SQL Script` or `File` > `Run SQL Script`).
 
----
-Sample CrowFoot chart
-![image](https://github.com/user-attachments/assets/bc0829ff-679b-4e00-8679-efc47b7f1074)
